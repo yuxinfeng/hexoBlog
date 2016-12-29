@@ -5,7 +5,7 @@
 # Site
 title: LovelyFly9091
 subtitle: 技术分享 
-description: 记录生活点点滴滴
+description: 记录生活 卓越成长
 author: 俞忻峰
 language:
 timezone:
@@ -73,7 +73,16 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#    type: git
+#    repository: https://github.com/yuxinfeng/hexoBlog 
+#    branch: master
 deploy:
-  type: git
-  repository: https://github.com/yuxinfeng/hexoBlog 
-  branch: master
+    type: rsync
+    host: lovelyfly9091.cn
+    user: yuxinfeng 
+    root: /home/yuxinfeng/myblog
+    delete: true
+    verbose: true
+    ignore_errors: false
+        
