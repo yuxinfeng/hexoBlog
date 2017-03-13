@@ -20,7 +20,7 @@ tags: Android
 ## 2. AppLinks具体实现
 ### AppLinks实现原理
 ***
-![yuanlitu](/_attatchassets/Applink_img/yuanlitu.jpg)
+![yuanlitu](applink/yuanlitu.jpg)
 
 	*安装或者升级package过程:
 	1. PackageManager对即将安装的apk做常规的验证。
@@ -81,7 +81,7 @@ tags: Android
 ```
 https://digitalassetlinks.googleapis.com/v1/statements:list?source.web.site=https://client.map.baidu.com&relation=delegate_permission/common.handle_all_urls
 ```
-![assetlink](/_attatchassets/Applink_img/assetlinks.jpg)
+![assetlink](applink/assetlinks.jpg)
 2. 使用web URI intent看能否调起
 ```
 adb shell am start -a android.intent.action.VIEW \
