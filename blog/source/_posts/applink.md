@@ -2,7 +2,9 @@
 title: Android AppLink调研分析 
 date: 2017-02-07
 categories: Android 
-tags: Android
+tags: 
+    - Android 
+    - Deep Linking
 ---
 
 ## 1. AppLinks介绍
