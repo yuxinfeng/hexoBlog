@@ -544,4 +544,6 @@ version: 5.1.0
 
 # dashang
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作
-alipay: /path/to/alipay-reward-image
+alipay: /uploads/alipay.png
+wechatpay: /uploads/weixinpay.png
+
