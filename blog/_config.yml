@@ -74,16 +74,16 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-    type: git
-    repository: https://github.com/yuxinfeng/yuxinfeng.github.io.git 
-    branch: master
 ##deploy:
-##    type: rsync
-##    host: lovelyfly9091.cn
-##    user: yuxinfeng 
-##    root: /home/yuxinfeng/myblog
-##    delete: true
-##    verbose: true
-##    ignore_errors: false
+##    type: git
+##    repository: https://github.com/yuxinfeng/yuxinfeng.github.io.git 
+##    branch: master
+deploy:
+    type: rsync
+    host: lovelyfly9091.cn
+    user: yuxinfeng 
+    root: /home/yuxinfeng/myblog
+    delete: true
+    verbose: true
+    ignore_errors: false
         
