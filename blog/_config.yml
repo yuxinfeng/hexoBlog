@@ -82,7 +82,7 @@ deploy:
     type: rsync
     host: lovelyfly9091.cn
     user: yuxinfeng 
-    root: /home/yuxinfeng/myblog
+    root: /home/yuxinfeng/myblog/yuxinfeng
     delete: true
     verbose: true
     ignore_errors: false
